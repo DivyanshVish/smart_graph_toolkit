@@ -1,6 +1,6 @@
 name: smart_graph_toolkit
 description: "A powerful Flutter charting library for beautiful line charts and real-time streaming charts with pinned Y-axis, horizontal scrolling, and gradient fills."
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/DivyanshVish/smart_graph_toolkit
 repository: https://github.com/DivyanshVish/smart_graph_toolkit
 issue_tracker: https://github.com/DivyanshVish/smart_graph_toolkit/issues

@@ -1,4 +1,6 @@
 # Changelog
+## 1.0.1
+- **Bug Fix**: Remove the video
 
 ## 1.0.0
 
