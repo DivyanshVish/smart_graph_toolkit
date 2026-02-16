@@ -1,0 +1,45 @@
+name: smart_graph_toolkit
+description: "A powerful Flutter charting library for beautiful line charts and real-time streaming charts with pinned Y-axis, horizontal scrolling, and gradient fills."
+version: 1.0.0
+homepage: https://github.com/DivyanshVish/smart_graph_toolkit
+repository: https://github.com/DivyanshVish/smart_graph_toolkit
+issue_tracker: https://github.com/DivyanshVish/smart_graph_toolkit/issues
+
+topics:
+  - chart
+  - graph
+  - line-chart
+  - streaming
+  - visualization
+
+screenshots:
+  - description: "Single line chart with gradient fill and horizontal scrolling"
+    path: asset/single_line_chart.png
+  - description: "Multi-line chart comparing two datasets"
+    path: asset/multi_line_chart.png
+  - description: "Real-time streaming chart with multiple lines"
+    path: asset/streaming_chart_1.png
+
+environment:
+  sdk: ^3.7.2
+  flutter: '>=3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.0.2
+  fl_chart: ^0.69.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.example.smart_graph_toolkit
+        pluginClass: SmartGraphToolkitPlugin
+      ios:
+        pluginClass: SmartGraphToolkitPlugin
